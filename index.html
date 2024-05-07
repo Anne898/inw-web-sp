@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="es"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords"
+      content="¡Vamos a Celebrar!, ​Ya Solo Faltan..., ¡Acompáñanos a el día!, Te esperamos enNombre del salón, ¡No Faltes!​, Confirma tu asistencia">
+    <meta name="description" content>
+    <title>Invitación</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="Invitación.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js"
+      defer></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js"
+      defer></script>
+    <meta name="generator" content="Nicepage 6.5.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Copia de Site5",
+		"sameAs": []
+}</script>
+    <meta name="theme-color" content="#3f62f1">
+    <meta property="og:title" content="Invitación">
+    <meta property="og:description" content>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Invitación">
+    <meta property="og:description" content="¡Vamos a celebrar!">
+    <meta property="og:image" itemprop="image"
+      content="https://invitacion-muestra1.netlify.app/images/miniatura.png"><meta
+      data-intl-tel-input-cdn-path="intlTelInput/"></head>
+
+  <body data-home-page="Invitación.html" data-home-page-title="Invitación"
+    data-path-to-root="./" data-include-products="false"
+    class="u-body u-xl-mode" data-lang="es">
+    <section
+      class="u-align-center u-clearfix u-container-align-center u-image u-section-1"
+      id="sec-fd07" data-image-width="1080" data-image-height="1920">
+      <div class="u-clearfix u-sheet u-sheet-1"></div>
+    </section>
+
+    <div id="boton" class="icon-social">
+      <audio id="MusicaFondo"></audio>
+      <a onclick="MusicaFondo()" class="float">
+        <img class="imgButton" async src="images/651717-e0c2c127.png" alt>
+      </a>
+    </div>
+    <script> let sound = true;
+let fondo = document.getElementById("MusicaFondo");
+function MusicaFondo() {
+fondo.src = "images/cancion.mp3";
+if (sound) {
+  fondo.volume = 0.7;
+  fondo.play();
+  sound = false;
+}
+else {
+  fondo.pause();
+  sound = true;
+}
+} </script>
+    <style> .float {
+position: fixed;
+width: 50px;
+height: 50px;
+bottom: 130px;
+right: 00px;
+background-color: #0000DB;
+color: #FFF;
+border-radius: 50px;
+text-align: center;
+z-index: 100;
+margin: 0;
+}
+.imgButton {
+width: 30px;
+height: 30px;
+/* centrar vertical y horizontalmente */
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -15px 0 0 -15px;}
+.my-float {
+margin-top: 22px;
+} </style>
+
+    <section class="u-align-center u-clearfix u-image u-section-2" src
+      data-image-width="1080" data-image-height="1920" id="sec-f8c3">
+
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div
+          class="u-border-8 u-border-custom-color-92 u-countdown u-custom-color-92 u-radius u-countdown-1"
+          id="countdown" data-target-date="May 15, 2024 18:00:00 GMT-0600"
+          data-redirect-url="https://">
+          <div class="u-countdown-wrapper u-spacing-12">
+            <div class="u-countdown-days u-countdown-item u-spacing-10">
+              <div class="u-countdown-counter u-countdown-counter-2"></div>
+              <div class="u-countdown-label u-countdown-label-2">DÍAS</div>
+            </div>
+            <div class="u-countdown-separator u-countdown-separator-2">:</div>
+            <div class="u-countdown-hours u-countdown-item u-spacing-10">
+              <div class="u-countdown-counter u-countdown-counter-3"></div>
+              <div class="u-countdown-label u-countdown-label-3">Horas</div>
+            </div>
+            <div class="u-countdown-separator u-countdown-separator-3">:</div>
+            <div class="u-countdown-item u-countdown-minutes u-spacing-10">
+              <div class="u-countdown-counter u-countdown-counter-4"></div>
+              <div class="u-countdown-label u-countdown-label-4">Minutos</div>
+            </div>
+            <div class="u-countdown-separator u-countdown-separator-4">:</div>
+            <div class="u-countdown-item u-countdown-seconds u-spacing-10">
+              <div class="u-countdown-counter u-countdown-counter-5"></div>
+              <div class="u-countdown-label u-countdown-label-5">Segundos</div>
+            </div>
+          </div>
+          <div class="u-countdown-message u-hidden">
+            <p>¡El tiempo ha terminado!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+const targetDate = new Date('May 25, 2024 18:00:00 GMT-0600');
+
+function updateCountdown() {
+  const currentDate = new Date();
+  const timeLeft = targetDate - currentDate;
+
+  if (timeLeft > 0) {
+    const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+    document.querySelector('#countdown .u-countdown-counter-2').textContent = days;
+    document.querySelector('#countdown .u-countdown-counter-3').textContent = hours;
+    document.querySelector('#countdown .u-countdown-counter-4').textContent = minutes;
+    document.querySelector('#countdown .u-countdown-counter-5').textContent = seconds;
+  } else {
+    document.querySelector('#countdown').classList.add('u-hidden');
+    document.querySelector('#countdown .u-countdown-message').classList.remove('u-hidden');
+  }
+}
+
+setInterval(updateCountdown, 1000);
+updateCountdown();
+</script>
+
+    <section class="u-align-center u-clearfix u-image u-section-3" src
+      data-image-width="1080" data-image-height="1920" id="sec-a9e6">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <a href="https://maps.app.goo.gl/QhGFJ5C2Uug2mRzTA"
+          class="u-align-center-xs u-border-none u-btn u-btn-round u-button-style u-custom-color-92 u-hover-custom-color-81 u-radius-3 u-text-body-alt-color u-text-hover-white u-btn-1"><span
+            class="u-icon"><svg class="u-svg-content"
+              viewBox="0 0 54.757 54.757" x="0px" y="0px"
+              style="width: 1em; height: 1em;"><path
+                d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952
+	L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7
+	S31.416,26,27.557,26z"></path></svg></span>&nbsp;VER UBICACIÓN
+        </a>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-image u-section-4" src
+      data-image-width="1080" data-image-height="1920" id="sec-a5bd">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <a
+          href=" https://api.whatsapp.com/send?phone=+19152820541&amp;text=%C2%A1Hola%21+Muchas+gracias+por+la+invitaci%C3%B3n%2C+ah%C3%AD+estaremos%21%21+%F0%9F%A5%B3"
+          class="u-align-center-xs u-border-none u-btn u-btn-round u-button-style u-custom-color-92 u-hover-custom-color-81 u-radius-3 u-text-body-alt-color u-text-hover-white u-btn-1"><span
+            class="u-file-icon u-icon u-icon-1"><img src="images/11.png"
+              alt></span>CONFIRMAR ASISTENCIA
+        </a>
+      </div>
+    </section>
+
+  </body></html>

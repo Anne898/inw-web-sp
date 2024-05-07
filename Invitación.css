@@ -1,0 +1,334 @@
+ .u-section-1 {
+  background-image: url("images/11-12.gif");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 800px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 660px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 506px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 790px;
+  }
+} .u-section-2 {
+  background-image: url("images/21.gi11-12.gif");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 790px;
+}
+
+.u-section-2 .u-countdown-1 {
+  background-image: none;
+  margin: 234px auto 60px;
+}
+
+.u-section-2 .u-countdown-counter-1 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.u-section-2 .u-countdown-number-1 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-number-2 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-label-1 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-separator-1 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-counter-2 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.u-section-2 .u-countdown-number-3 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-number-4 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-number-5 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-label-2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-separator-2 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-counter-3 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.u-section-2 .u-countdown-number-6 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-number-7 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-label-3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-separator-3 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-counter-4 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.u-section-2 .u-countdown-number-8 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-number-9 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-label-4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-separator-4 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-counter-5 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.u-section-2 .u-countdown-number-10 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-number-11 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-label-5 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-separator-5 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-counter-6 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.u-section-2 .u-countdown-number-12 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-number-13 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-2 .u-countdown-label-6 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255) !important;
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-countdown-1 {
+    --radius: 22px;
+    margin-top: 233px;
+  }
+
+  .u-section-2 .u-countdown-counter-1 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-countdown-label-1 {
+    font-size: 0.75rem;
+  }
+
+  .u-section-2 .u-countdown-separator-1 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-countdown-counter-2 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-countdown-label-2 {
+    font-size: 0.75rem;
+  }
+
+  .u-section-2 .u-countdown-separator-2 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-countdown-counter-3 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-countdown-label-3 {
+    font-size: 0.75rem;
+  }
+
+  .u-section-2 .u-countdown-separator-3 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-countdown-counter-4 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-countdown-label-4 {
+    font-size: 0.75rem;
+  }
+
+  .u-section-2 .u-countdown-separator-4 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-countdown-counter-5 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-countdown-label-5 {
+    font-size: 0.75rem;
+  }
+
+  .u-section-2 .u-countdown-separator-5 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-countdown-counter-6 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-countdown-label-6 {
+    font-size: 0.75rem;
+  }
+} .u-section-3 {
+  background-image: url("images/32.gi11-12.gif");
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 792px;
+}
+
+.u-section-3 .u-btn-1 {
+  background-image: none;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 794px;
+  }
+
+  .u-section-3 .u-btn-1 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin: 695px auto 60px;
+    padding: 7px 26px 8px 25px;
+  }
+} .u-section-4 {
+  background-image: url("images/41.gi11-12.gif");
+  background-position: 50% 50%;
+}
+
+.u-section-4 .u-sheet-1 {
+  min-height: 793px;
+}
+
+.u-section-4 .u-btn-1 {
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: none;
+  background-image: none;
+  margin: 1422px auto 60px;
+}
+
+.u-section-4 .u-icon-1 {
+  margin-right: 5px;
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-btn-1 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 728px;
+    margin-bottom: 26px;
+    padding: 7px 26px 8px 25px;
+  }
+}
